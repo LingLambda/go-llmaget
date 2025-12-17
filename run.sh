@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# FF14 石之家爬虫服务管理脚本
+# FF14 捡垃圾助手管理脚本
 APP_NAME="llmaget"
 APP_DIR=$(cd "$(dirname "$0")" && pwd)
 APP_PATH="$APP_DIR/$APP_NAME"
@@ -137,7 +137,7 @@ tail_logs() {
 
 # 帮助信息
 usage() {
-    echo "FF14 石之家爬虫服务管理脚本"
+    echo "FF14 捡垃圾助手管理脚本"
     echo ""
     echo "用法: $0 {start|stop|restart|status|logs|tail [行数]}"
     echo ""
