@@ -1,0 +1,4 @@
+*.json
+.DS_Store
+llmaget-linux-amd64
+llmaget
